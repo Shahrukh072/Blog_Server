@@ -1,8 +1,39 @@
-POST http://localhost:4040/signin
-Content-Type: application/json
+# POST http://localhost:4040/signin
+# Content-Type: application/json
 
-{
+# {
     
-    "email": "sameer.khan072@gmail.com",
-    "password": "Shahrukh@8980"
-}
+#     "email": "sskinfratech@gmail.com",
+#     "password": "Shahrukh@8980"
+# }
+
+GET  http://localhost:4040/get-upload-url
+
+# POST http://localhost:4040/create-blog
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NzFkZTkwZjIzZmY0OGE3ZWNlOTdjYSIsImlhdCI6MTcwMjIyNDc5MH0.dOJWNWI2WBg0KLBNC_mCGCRJOjCue3jUaS4VkqYuCdk
+
+# {
+#     "title": "test",
+#     "banner": "https://example.com/image-url",
+#     "des": "this short",
+#     "content":{
+#         "blocks": [1,2]
+#     },
+#     "tags": ["tag2"]
+# }
+
+# POST   http://localhost:4040/get-blog
+# Content-Type: application/json
+
+# {
+#     "blog_id": "NavigatingYourProfessionalFuturein2024m-U6lxOxR0ITfxomOzB7c"
+# }
+
+# POST   http://localhost:4040/get-profile
+# Content-Type: application/json
+
+# {
+#     "username": "shahrukh.khan072"
+# }
+
