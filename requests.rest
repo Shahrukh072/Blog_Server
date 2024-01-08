@@ -7,7 +7,7 @@
 #     "password": "Shahrukh@8980"
 # }
 
-GET  http://localhost:4040/get-upload-url
+# GET  http://localhost:4040/get-upload-url
 
 # POST http://localhost:4040/create-blog
 # Content-Type: application/json
